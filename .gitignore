@@ -1,0 +1,7 @@
+obj
+*.cfg
+client
+timeRemainingServer
+.DS_Store
+._*
+!configs/*
