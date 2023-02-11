@@ -27,9 +27,9 @@ SERVEROBJECTS = $(patsubst %.c, $(OBJDIR)/%.o, $(wildcard $(SRCDIR)/*.c))
 ifeq ($(OS),Windows_NT)
 	LIBS = -lws2_32
 	CLIENTOBJECTS = $(patsubst %.c, $(OBJDIR)/%.o, \
-		$(filter-out $(CLIENTS)/client.c, $(wildcard *.c)))
+		$(filter-out $(CLIENTS)/client.c, $(CLIENTS)/*.c))
 	CLIENTOBJECTS += $(patsubst %.c, $(OBJDIR)/%.o, \
-		 $(filter-out $(SRCDIR)/server.c $(SRCDIR)/queue.c, $(wildcard *.c)))
+		 $(filter-out $(SRCDIR)/server.c $(SRCDIR)/queue.c, $(SRCDIR)/*.c))
 else 
 	CLIENTOBJECTS = $(patsubst %.c, $(OBJDIR)/%.o, \
 		$(filter-out $(CLIENTS)/clientWin.c, $(wildcard $(CLIENTS)/*.c)))
