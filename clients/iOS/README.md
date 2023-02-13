@@ -8,7 +8,7 @@ iOS Client for Universal Countdown
 
 ## Installation
 To install the app on your iPhone, you will need a Mac with Xcode 
-Version 14 or newer installed on it,
+Version 14 or newer installed on it.
 
 ### Enable Developer Mode
 Seeing that this app is not on the App Store and you need to install 
