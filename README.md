@@ -68,8 +68,7 @@ on how to do that can be found on their website
 
 #### iOS
 For installing the app on your iPhone, view the 
-<a href="https://github.com/DarkAssassin23/Universal-Countdown/tree/main/clients/iOS">
-iOS App README</a>
+[iOS App README](clients/iOS/README.md)
 
 ### Server
 As mentioned in the [about](#about) section, this server is only made for
