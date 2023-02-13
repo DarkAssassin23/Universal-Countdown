@@ -85,7 +85,7 @@ void parseServerConfigLines(struct tm *tm, const char* fileContents)
         lineStart = pos++;
         free(line);
     }
-    printTime(tm);
+    //printTime(tm);
 }
 
 struct tm* processServerConfig()
