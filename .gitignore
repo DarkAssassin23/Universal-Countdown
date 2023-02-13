@@ -5,3 +5,7 @@ timeRemainingServer
 .DS_Store
 ._*
 !configs/*
+xcuserdata/
+*.pbxuser
+!default.pbxuser
+*.xuserstate
