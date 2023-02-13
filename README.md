@@ -6,11 +6,12 @@
 * [Configuration](#config-files)
 * [Building from source](#building-from-source)
     * [Clients](#clients)
+      * [iOS](#ios)
     * [Server](#server)
 
 ## About
 This is a multi-threaded TCP server, written in C, along with clients
-for Windows, macOS, and Linux. (iOS coming soon) 
+for Windows, macOS, Linux, and iOS
 
 This server listens for connections and replies back with how much time
 is left based on the date provided in its config file.
@@ -64,6 +65,11 @@ This will build either the Windows or Unix client based on your OS.
 Windows operating systems with MSYS2 installed and configured. A guide 
 on how to do that can be found on their website 
 <a href="https://www.msys2.org" target="new">here</a>
+
+#### iOS
+For installing the app on your iPhone, view the 
+<a href="https://github.com/DarkAssassin23/Universal-Countdown/tree/main/clients/iOS">
+iOS App README</a>
 
 ### Server
 As mentioned in the [about](#about) section, this server is only made for
