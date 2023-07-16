@@ -16,8 +16,9 @@ for Windows, macOS, Linux, and iOS
 This server listens for connections and replies back with how much time
 is left based on the date provided in its config file.
 
-**NOTE:** The server is only designed to run on Unix-based machines. 
-It will not work on Windows unless you run it with Docker.
+> **Note**: 
+> The server is only designed to run on Unix-based machines. 
+> It will not work on Windows unless you run it with Docker.
 
 ________________
 ## Building And Deploying The Server With Docker
@@ -46,7 +47,7 @@ the reason for the countdown is for. The date and time of the event are
 specified in the server configuration.
 
 > **Note**:
-> The hours in the server's configmust be 24 hour-based, not 
+> The hours in the server's config must be 24 hour-based, not 
 > 12 hour-based.
 
 ________________
@@ -62,10 +63,11 @@ make client
 ```
 This will build either the Windows or Unix client based on your OS.
 
-**NOTE:** For Windows users, the provided makefile is designed for 
-Windows operating systems with MSYS2 installed and configured. A guide 
-on how to do that can be found on their website 
-<a href="https://www.msys2.org" target="new">here</a>
+> **Note**: 
+> For Windows users, the provided makefile is designed for 
+> Windows operating systems with MSYS2 installed and configured. A guide 
+> on how to do that can be found on their website 
+> <a href="https://www.msys2.org" target="new">here</a>
 
 #### iOS
 For installing the app on your iPhone, view the 
