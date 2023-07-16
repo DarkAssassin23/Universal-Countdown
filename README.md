@@ -45,8 +45,9 @@ the config file tells the client where to connect to the server and what
 the reason for the countdown is for. The date and time of the event are
 specified in the server configuration.
 
-**NOTE:** The hours in the server's configmust be 24 hour-based, not 
-12 hour-based.
+> **Note**:
+> The hours in the server's configmust be 24 hour-based, not 
+> 12 hour-based.
 
 ________________
 ## Building from Source
