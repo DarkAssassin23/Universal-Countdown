@@ -63,7 +63,7 @@ make client
 ```
 This will build either the Windows or Unix client based on your OS.
 
-> **Note**: 
+> [!NOTE]
 > For Windows users, the provided makefile is designed for 
 > Windows operating systems with MSYS2 installed and configured. A guide 
 > on how to do that can be found on their website 
