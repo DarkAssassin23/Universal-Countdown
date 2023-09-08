@@ -16,7 +16,7 @@ for Windows, macOS, Linux, and iOS
 This server listens for connections and replies back with how much time
 is left based on the date provided in its config file.
 
-> **Note**: 
+> [!NOTE]
 > The server is only designed to run on Unix-based machines. 
 > It will not work on Windows unless you run it with Docker.
 
@@ -46,7 +46,7 @@ the config file tells the client where to connect to the server and what
 the reason for the countdown is for. The date and time of the event are
 specified in the server configuration.
 
-> **Note**:
+> [!NOTE]
 > The hours in the server's config must be 24 hour-based, not 
 > 12 hour-based.
 
